@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="PaginaPrincipal.css" rel="stylesheet" />
+    <title>Pagina Principal</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar"><h1>Página Principal</h1></nav>
+      <div class="content">
+        <div class="divResultado">
+          <div class="card" onclick="goToPage('Conversor.html')">Conversor</div>
+          <div class="card" onclick="goToPage('Calculadora.html')">
+            Calculadora
+          </div>
+          <div class="card" onclick="goToPage('jogoDaVida.html')">
+            Jogo Da Vida
+          </div>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+    <script>
+      function goToPage(page) {
+        window.location.href = page;
+      }
+    </script>
+  </body>
+</html>

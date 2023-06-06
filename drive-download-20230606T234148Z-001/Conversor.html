@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Conversor.css" rel="stylesheet" />
+    <title>Conversor</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar"><h1>Conversor</h1></nav>
+      <div class="content">
+        <div class="divResultado">
+          <h1>Conversor de Números Romanos</h1>
+          <p>Insira um número (entre 1 e 3999) e escolha a opção desejada:</p>
+          <input type="text" id="numero" placeholder="Número" />
+          <br />
+          <input type="radio" id="opcao-arabico" name="opcao" checked />
+          <label for="opcao-arabico">Arábico para Romano</label>
+          <br />
+          <input type="radio" id="opcao-romano" name="opcao" />
+          <label for="opcao-romano">Romano para Arábico</label>
+          <br />
+          <button onclick="converter()">Converter</button>
+          <p id="resultado"></p>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+  <script src="Conversor.js"></script>
+</html>
