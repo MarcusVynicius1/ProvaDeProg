@@ -1,5 +1,5 @@
-const numRows = 10;
-const numCols = 10;
+const numRows = 17;
+const numCols = 20;
 let board = createBoard(numRows, numCols);
 
 // Cria um tabuleiro vazio com o número de linhas e colunas especificado
