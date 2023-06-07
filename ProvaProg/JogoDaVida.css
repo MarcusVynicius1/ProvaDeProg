@@ -48,6 +48,7 @@ body {
 }
 
 footer {
+  margin-top: 2em;
   flex-shrink: 0;
   background-color: blueviolet;
   padding: 10px;
